@@ -1,0 +1,16 @@
+###Por si no quieren instalar las librerias/dependencias directamente en su entorno global:
+
+Crear entorno virtual:
+py -3.11 -m venv venv
+
+Activar entorno virtual:
+.\venv\Scripts\Activate.ps1
+
+Si te da error:
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+Instalar dependencias en vez una por una (SI USAN PYTHON MAYOR A 3.11 (EJ 3.12) SE ROMPE):
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+python -m ipykernel install --user --name=proyecto-pln --display-name "Python 3.11 (Proyecto-PLN)"
+Y eligen kernel de entorno virtual

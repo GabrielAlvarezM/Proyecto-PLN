@@ -15,5 +15,3 @@ openai>=1.0.0
 plotly>=5.14.0
 scipy>=1.11.0
 ipykernel
-protobuf
-h5py
