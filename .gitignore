@@ -1,0 +1,59 @@
+#lo pueden ignorar, ya esta casi todo lo que no deberia de ir en el git
+
+# Entorno virtual
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Modelos entrenados (son archivos grandes)
+*.pkl
+*.h5
+*.hdf5
+*.npy
+
+# Datos (el CSV es grande)
+*.csv
+data/
+
+# API Keys y configuración sensible
+.env
+.env.local
+config.py
+secrets.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema Operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+temp/
+tmp/
+
+# Distribución
+build/
+dist/
+*.egg-info/

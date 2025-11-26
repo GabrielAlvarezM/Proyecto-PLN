@@ -1,0 +1,13 @@
+###Por si no quieren instalar las librerias/dependencias directamente en su entorno global:
+
+Crear entorno virtual:
+python -m venv venv
+
+Activar entorno virtual:
+.\venv\Scripts\Activate.ps1
+
+Si te da error:
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+Instalar dependencias en vez una por una (SI USAN PYTHON MAYOR A 3.11 (EJ 3.12) SE ROMPE):
+pip install -r requirements.txt

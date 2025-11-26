@@ -1,0 +1,4 @@
+Por si no quieren instalar las librerias/dependencias directamente en su entorno global:
+
+Crear entorno virtual:
+python -m venv venv

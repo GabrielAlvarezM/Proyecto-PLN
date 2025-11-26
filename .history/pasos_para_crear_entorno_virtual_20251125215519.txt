@@ -1,0 +1,2 @@
+Por si no quieren instalar las librerias/dependencias directamente en su entorno global:
+

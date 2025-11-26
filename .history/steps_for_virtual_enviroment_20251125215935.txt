@@ -1,0 +1,11 @@
+Por si no quieren instalar las librerias/dependencias directamente en su entorno global:
+
+Crear entorno virtual:
+python -m venv venv
+
+Activar entorno virtual:
+.\venv\Scripts\Activate.ps1
+
+Si te da error:
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
