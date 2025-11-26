@@ -10,5 +10,4 @@ Si te da error:
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 Instalar dependencias en vez una por una (SI USAN PYTHON MAYOR A 3.11 (EJ 3.12) SE ROMPE):
-python -m pip install --upgrade pip
 pip install -r requirements.txt
